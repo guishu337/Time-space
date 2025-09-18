@@ -9,6 +9,20 @@
 实验
 ----
 我们的论文是通过pytorch实现完成的，python=3.10.16 CUDA=11.3 requirements请见文件夹Time-space.
+Time-space中的addpoint 为用来添加定位球的程序
+data/experimental_data 分别为测试的数据以及实验数据
+
+测试
+----
+文件tools/中Registration为分层点云配准程序，Time_space，为时空演化模型
+Registration中在input_dir、output_dir中替换您的文件地址，其中输入文件夹内包含您的点云文件命名方式为layer_0.ply ~ layer_N.ply，base_layer参数为参考层序号，请根据您想要配准至哪一层来设置编号。
+Time_space为时空演化模型app，您需要安装gradio，并直接本地运行。
+
+系统界面
+----
+<img width="1526" height="816" alt="image" src="https://github.com/user-attachments/assets/b18aaa11-1fe6-4d8c-aefa-df386578a265" />
+
+您可在相对应的参数设置中，选择您想要模拟推演的参数。
 
 实验数据
 ----
@@ -32,7 +46,8 @@
 ----
 如果您想在工作中使用本文，请引用本文
 
-田冬生，张思庆，陈启丽，等. 面向垃圾池的三维高精度动态建模[J].北京信息科技大学学报(自然科学版), 2025, 40(4): 12-21.TIAN D S, ZHANG S Q, CHEN Q L, et al. High-accuracy 3D dynamic modeling for waste pools[J]. Journal of Beijing Information Science & Technology University (Science and Technology Edition), 2025, 40(4): 12-21.
+田冬生，张思庆，陈启丽，等. 面向垃圾池的三维高精度动态建模[J].北京信息科技大学学报(自然科学版), 2025, 40(4): 12-21.
+TIAN D S, ZHANG S Q, CHEN Q L, et al. High-accuracy 3D dynamic modeling for waste pools[J]. Journal of Beijing Information Science & Technology University (Science and Technology Edition), 2025, 40(4): 12-21.
 
 许可证
 ----
