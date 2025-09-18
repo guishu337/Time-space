@@ -1,0 +1,1 @@
+田冬生，张思庆，陈启丽，等. 面向垃圾池的三维高精度动态建模[J].北京信息科技大学学报(自然科学版), 2025, 40(4): 12-21.TIAN D S, ZHANG S Q, CHEN Q L, et al. High-accuracy 3D dynamic modeling for waste pools[J]. Journal of Beijing Information Science & Technology University (Science and Technology Edition), 2025, 40(4): 12-21.
